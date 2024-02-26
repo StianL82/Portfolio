@@ -1,0 +1,70 @@
+/*---------- Buttons/cta ----------*/
+
+.button {
+  margin-right: 10px; /* Juster dette etter behov for å legge til mellomrom mellom knappene */
+}
+
+.cta {
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid transparent;
+  background-color: #3498db; /* Farge på bakgrunn */
+  color: #fff; /* Farge på tekst */
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.cta:hover {
+  background-color: #2980b9; /* Endret farge på bakgrunn ved hover */
+  color: #fff; /* Endret farge på tekst ved hover */
+}
+
+/*---------- Cards ----------*/
+
+.card{
+  background-color: var(--color-light-grey);
+  border-radius: 10px;
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.card-image{
+  margin: 0px;
+  margin-bottom: -4px;
+}
+
+.card-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text{
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-text h4{
+  margin: 0px;
+}
+
+.card-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+
+/*---------- Divider ----------*/
+
+.divider{
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+
