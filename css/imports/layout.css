@@ -1,0 +1,44 @@
+/*---------- Images ----------*/
+
+.about-image{
+  align-self: center;
+}
+
+.contact-image{
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 100px 0px;
+}
+
+.contact-image img{
+  max-width: 25%;
+}
+
+
+/*---------- Flex ----------*/
+
+.about_me-container{
+  display: flex;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+  gap: 20px;
+}
+
+
+/*---------- Colors and fonts/text ----------*/
+
+.logo{
+  font-family: var(--text-h1);
+}
+
+.welcome-text, h1, .contact-text{
+  color: var(--color-white);
+}
+
+.contact-text{
+  text-align: center;
+}
