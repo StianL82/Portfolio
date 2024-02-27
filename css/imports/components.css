@@ -1,22 +1,24 @@
 /*---------- Buttons/cta ----------*/
 
 .button {
-  margin-right: 10px; /* Juster dette etter behov for å legge til mellomrom mellom knappene */
+  margin-right: 10px;
 }
 
 .cta {
   display: inline-block;
   padding: 10px;
   border: 2px solid transparent;
-  background-color: #3498db; /* Farge på bakgrunn */
-  color: #fff; /* Farge på tekst */
+  background-color: var(--color-light-blue);
+  color: #fff;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s;
+  border: 2px solid var(--color-header-footer);
 }
 
 .cta:hover {
-  background-color: #2980b9; /* Endret farge på bakgrunn ved hover */
+  background-color: var(--color-header-footer);
   color: #fff; /* Endret farge på tekst ved hover */
+  border: 2px solid var(--color-light-blue);
 }
 
 /*---------- Cards ----------*/
@@ -66,5 +68,6 @@
   padding: 40px 0px;
   display: flex;
   justify-content: center;
+  height: 40px;
 }
 
