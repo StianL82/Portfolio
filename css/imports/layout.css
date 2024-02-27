@@ -5,6 +5,7 @@
   display: flex;
   flex: 1;
   justify-content: center;
+  padding-top: 80px;
 }
 
 .about-image img{
@@ -45,6 +46,10 @@
 
 .end-text{
   margin-bottom: 100px;
+}
+
+.links{
+  display: flex;
 }
 
 
