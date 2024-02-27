@@ -9,6 +9,10 @@
 
 @media (max-width: 810px) {
 
+  .about-image img {
+    width: 90%;
+  }
+
 .links{
   display: none;
 }
@@ -27,6 +31,10 @@
 
 h1 {
   margin: 50px 20px;
+}
+
+.about-image  {
+  padding-top: 0px;
 }
 
 .about-image img {
@@ -84,6 +92,10 @@ h1 {
 .button{
   display: flex;
   justify-content: center;
+}
+
+.divider {
+  height: 20px;
 }
 
 }
