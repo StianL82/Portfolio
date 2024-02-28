@@ -37,6 +37,6 @@ Open with live server, or open in browser [Link to page](https://portfolio1-stia
 ### Contributing
 This repo is not open to any contributions. 
 
-### Contact 📫
+## Contact 📫
 
 Feel free to contact me at stian.lilleng@gmail.com
