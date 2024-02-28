@@ -34,6 +34,6 @@ git clone git@github.com/StianL82/Portfolio.git
 
 Open with live server, or open in browser [Link to page](https://portfolio1-stianlilleng.netlify.app/).
 
-## Contact
+## Contact 📫
 
 Feel free to contact me at stian.lilleng@gmail.com
