@@ -70,7 +70,7 @@ h1 {
 }
 
 .card-image img {
-  width: 50%;
+  width: 80%;
   border-radius: 10px;
   border: 1px solid var(--color-site-background);
   margin: 0 auto;
@@ -84,6 +84,12 @@ h1 {
 }
 
 @media (max-width: 460px) {
+
+
+.card{
+  max-width: 85%;
+}
+
 
 .card-buttons {
   flex-direction: column;
